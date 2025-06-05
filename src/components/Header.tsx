@@ -14,7 +14,7 @@ const Header = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
-            <Icon name="Building2" size={32} className="text-blue-600" />
+            <Icon name="Building2" size={32} className="text-orange-500" />
             <span className="text-xl font-bold text-gray-900 font-montserrat">
               САМЭК
             </span>
@@ -43,7 +43,7 @@ const Header = () => {
 
           <Button
             onClick={() => scrollToSection("contact")}
-            className="bg-blue-600 hover:bg-blue-700"
+            className="bg-orange-500 hover:bg-orange-600"
           >
             Связаться
           </Button>

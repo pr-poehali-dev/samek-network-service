@@ -64,7 +64,7 @@ const Services = () => {
                 <Icon
                   name={service.icon as any}
                   size={64}
-                  className="mx-auto mb-4 text-blue-600"
+                  className="mx-auto mb-4 text-orange-500"
                 />
                 <CardTitle className="text-xl font-montserrat">
                   {service.title}

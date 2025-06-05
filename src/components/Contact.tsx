@@ -31,7 +31,7 @@ const Contact = () => {
               </div>
               <Input placeholder="Email" type="email" />
               <Textarea placeholder="Сообщение" className="min-h-[120px]" />
-              <Button className="w-full bg-blue-600 hover:bg-blue-700">
+              <Button className="w-full bg-orange-500 hover:bg-orange-600">
                 Отправить сообщение
               </Button>
             </CardContent>
@@ -44,7 +44,7 @@ const Contact = () => {
                   <Icon
                     name="MapPin"
                     size={24}
-                    className="text-blue-600 mt-1"
+                    className="text-orange-500 mt-1"
                   />
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">Адрес</h3>
@@ -59,7 +59,11 @@ const Contact = () => {
             <Card>
               <CardContent className="pt-6">
                 <div className="flex items-start space-x-4">
-                  <Icon name="Phone" size={24} className="text-blue-600 mt-1" />
+                  <Icon
+                    name="Phone"
+                    size={24}
+                    className="text-orange-500 mt-1"
+                  />
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">
                       Телефон
@@ -76,7 +80,11 @@ const Contact = () => {
             <Card>
               <CardContent className="pt-6">
                 <div className="flex items-start space-x-4">
-                  <Icon name="Clock" size={24} className="text-blue-600 mt-1" />
+                  <Icon
+                    name="Clock"
+                    size={24}
+                    className="text-orange-500 mt-1"
+                  />
                   <div>
                     <h3 className="font-semibold text-gray-900 mb-1">
                       Режим работы

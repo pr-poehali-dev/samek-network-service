@@ -3,7 +3,7 @@ import Icon from "@/components/ui/icon";
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20">
+    <section className="bg-gradient-to-br from-blue-600 via-blue-700 to-orange-600 text-white py-20">
       <div className="container mx-auto px-6 text-center">
         <div className="mb-8">
           <h1 className="text-5xl font-bold mb-4 font-montserrat">САМЭК</h1>
@@ -46,7 +46,7 @@ const Hero = () => {
 
         <Button
           size="lg"
-          className="bg-white text-blue-800 hover:bg-blue-50 font-semibold px-8"
+          className="bg-orange-500 text-white hover:bg-orange-600 font-semibold px-8"
         >
           Узнать больше
         </Button>

@@ -44,7 +44,7 @@ const About = () => {
               водоотведения и теплоснабжения.
             </p>
 
-            <div className="flex items-center space-x-4 text-blue-600">
+            <div className="flex items-center space-x-4 text-orange-600">
               <Icon name="Phone" size={20} />
               <span className="font-semibold">+7 (846) 000-00-00</span>
             </div>
@@ -60,7 +60,7 @@ const About = () => {
                   <Icon
                     name={advantage.icon as any}
                     size={40}
-                    className="mx-auto mb-4 text-blue-600"
+                    className="mx-auto mb-4 text-orange-500"
                   />
                   <h3 className="font-semibold text-gray-900 mb-2">
                     {advantage.title}
